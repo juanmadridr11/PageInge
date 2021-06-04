@@ -1,343 +1,192 @@
-html{
+.seccion-1{
 
-    background:-webkit-linear-gradient(left,#282b30,#36393e);
-}
-.contenedor{
-
-    background-image: url(fondo.jpg);
-    background-size: 80rem 52rem;
-    background-color: rgba(0, 0, 0, 0.527);
-    background-blend-mode: soft-light;
-    border-top-left-radius: 6rem;
-    border-bottom-right-radius: 6rem;
-    color:#e6e6e6;
-    padding: 2rem;
-    border-top: 2px solid black;
-    border-bottom:2px solid black;
-   
-}
-
-.filas h1{
-    
-    
-    
-    border: none;
-    margin-top: 2.5rem;
-    border-radius: 1rem;
-    font-size: 1.8rem;
-    font-family: 'Roboto', sans-serif;
-    transition: 1s;
-    padding: 0rem 1rem;
-    margin-bottom:1rem ;
-    margin-left: 2rem;
-    width: 30rem;
-    float: left;
-    font-weight: normal;
+    height: 1rem;
+    margin-top: 5rem !important;
+    text-align: center;
     
 }
-#span-1{
-        
-    transition: 1s;
-    cursor: pointer;
+.seccion-2{
 
+    margin-top: 3rem !important;
+    border: none !important;
+    text-align: center;
 }
-#span-1:hover{
+.seccion-3{
 
-    font-size: 1.6rem;
-    transition: 0.8s;
-    margin-top: 3rem;
+    margin-top: 1rem !important;
+}
+.seccion-4{
+
+    margin-top: 3rem !important;
+    margin-left: 3rem !important;
+    
+}
+.seccion-5{
+
+    margin-top: 2rem !important;
+    
 }
 #p-1{
     
-    border: none;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5rem;
-    cursor: pointer;
-    margin-bottom: 3rem;
+    font-size: 1.2rem;
+   font-weight: bold;
+   width: 13rem;
+   background-color: #326ada83;
+   border-radius: 2rem;
+   margin-right: 2rem;
+   color: white;
+   padding: 0.5rem !important;
+   border: none;
+   transition: 1s;
+   
 }
-.filas .header-1{
+#p-1:hover{
 
-    height: 23.5rem;
-    background-image: url(BeFunky-collage2.png);
-    background-color: rgba(0, 0, 0, 0.616);
-    background-blend-mode: soft-light;
-    background-size: 39.4rem;
-    background-repeat: no-repeat;
-    
-    border-top-left-radius: 2rem;
-    transition: 1s;
-    
-    
-
-}
-.filas .header-1:hover{
-
-    width: 30rem;
-    height: 17.5rem;
-    background-size: 29.9rem;
-    margin-left: 5rem;
-    
-    transition: 1s;
-
-
-}
-.header-1 h2{
-
-    width: 20rem;
-    font-size: 1.3rem;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    background-color: #326ada83;
-    margin-left: 4rem;
-    border-radius: 1.5rem;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    
-}
-.header-1 p{
-
-    width: 15rem;
-    line-height: 1.8rem;
-    margin-left: 8rem;
-    margin-bottom: 3rem;
-    font-family:'Roboto', sans-serif; 
-}
-.header-buttom{
-
-    
-    background-color:#326adac5 ;
-    padding: 0.1rem 1.5rem;
-    color: white;
-    border-radius: 1rem;
-    margin-left: 10.7rem;
-    transition: 1s;
-    font-family:'Roboto', sans-serif; 
-}
-.filas .header-2{
-
-    height: 23.5rem;
-    background-image: url(BeFunky-collage.png);
-    background-color: rgba(0, 0, 0, 0.616);
-    background-blend-mode: soft-light;
-    background-size: 39.4rem;
-    background-repeat: no-repeat;
-    
-    border-bottom-right-radius: 2rem;
-    transition: 1s;
-
-
-}
-.filas .header-2:hover{
-
-    width: 30rem;
-    height: 17.5rem;
-    background-size: 29.9rem;
-    
-    transition: 1s;
-
-
-
-}
-.header-2 h2{
-
-    width: 20rem;
-    font-size: 1.3rem;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    background-color: 	#326ada83;
-    margin-left:4rem;
-    border-radius: 1.5rem;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-
-}
-.header-2 p{
-
-    width: 15rem;
-    line-height: 1.8rem;
-    margin-left: 8rem;
-    margin-bottom: 3rem;
-    font-family:'Roboto', sans-serif; 
-
-
-}
-.header-buttom:hover{
-
-    background: transparent;
-    transition: 1s;
-}
-#div-1{
-
-    color: white;
-    
-}
-.icons{
-
-    
-    float: right;
-    margin-top: 3rem;
-    font-size: 1.5rem;
-    margin-right: 1rem;
-    transition: 1s;
-    cursor: pointer;
-}
-.icono-facebook{
-
-    margin-right: 2rem;
-    transition: 1s;
-}
-.icons:hover{
-
-    font-size:2rem;
-    margin-right:0.7rem ;
-    transition: 1s;
-}
-.icono-facebook:hover{
-
-    font-size:2rem;
-    margin-right:2.2rem !important ;
-    transition: 1s;
-    
-}
-#img-1{
-
-    width: 7rem;
-    float: left;
-    margin-left: 5rem;
-    cursor: pointer;
+    background-color: transparent;
+    font-size: 1rem;
     transition: 1s;
 }
 #img-1:hover{
 
-    width: 8.5rem;
-    margin-left: 4.5rem;
+    width: 11rem !important;
+    margin-left: 25rem !important;
     transition: 1s;
 }
-#form-1{
+section h1{
 
-    float: right;
-    margin-top: 2.7rem;
-    margin-right: 2rem;
-    
+    font-size: 1.7rem ;
+    font-family: 'Roboto', sans-serif;
+    border: none !important;
     
 }
-#form-1 input{
+section h2{
 
-    outline: none;
-    background: #eee;
-    height: 2rem;
-    border: 0;
-    border-radius: 1rem;
+    font-size: 1.4rem;
+    font-weight: normal;
+    margin-left: 12rem;
+    width: 36rem !important;
+    border: none !important;
+    
+    border-radius: 2rem;
+    transition: 1s;
+    
+}
+section h2:hover{
+
+    font-size: 1.8rem;
+    background: transparent;
+    margin-left: 8rem;
+    width: 50rem !important;
+    transition: 1s;
+    
+}
+#p-2{
+
+    font-size: 1rem;
+    line-height: 1.8rem;
+    padding: 0rem 1rem;
+    border: none !important;
+    border-radius: 5px;
+    color: #eee;
+    font-family: 'Roboto', sans-serif !important ;
+    background: #36393e;
+}
+
+.p-3{
+    
+    padding: 0.1rem 1rem !important;
+    font-size: 0.7rem;
     text-align: center;
-    transition: 0.5s;
-    border: 1.5px solid #189bd3;
-    font-family:'Roboto', sans-serif;
-    
-
-}
-#boton-1{
-
-    float: right;
-    color: white;
-    font-family:'Roboto', sans-serif;
-    padding: 0.2rem 1rem;
-    margin-top: 3.1rem;
-    font-size: 0.8rem;
-    margin-right: 0.8rem;
-    background: #189bd3;
+    margin-right: 0.5rem;
+    color: #eee;
+    background-color:#189bd3 ;
+    border: none !important;
     border-radius: 1rem;
     transition: 1s;
+    
 }
-#boton-1:hover{
+.p-3:hover{
 
     background: transparent;
-    
     transition: 1s;
+}
+.slider{
+
+    position: relative;
+}
+.slider li{
+
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.7s ;
+}
+
+.slider li:first-child{
+
+    opacity: 1;
+
+}
+.slider li:target{
+
+    opacity: 1;
+
+}
+.slider1{
+    position: relative;
+    
+}
+.slider1 li{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.7s ;
+
+}
+#slider-8{
+    opacity: 1;
+}
+.slider1 li:target{
+    opacity: 1;
+    
 }
 footer{
-
-    color: white;
-    margin-bottom: 3rem;
+    width: 40rem !important;
+    text-align: center;
+    background-color: #36393e;
+    border-radius: 3rem;
+    border:none !important;
     
 }
-footer h2{
-
-    margin-top: 7rem;
-    text-align: center;
-    border: 0 !important;
-    background: #36393e94;
-    width: 17rem!important;
-    height: 4rem;
-    margin-left: 31rem;
-    border-radius: 2rem;
-    font-family: 'Roboto', sans-serif ;
-    font-size: 1.5rem;
-    transition: 1s;
-    cursor: pointer;
+header{
+    margin-bottom: 2rem;
 }
-footer h2:hover{
+.seccion-5 p{
+    
+    line-height: 1rem;
+    background: #326ada83;
+    border: none !important;
+    width: 25rem;
+    border-radius: 3rem;
+    margin-left: 8rem;
+    transition: 1s;
+
+}
+form input{
 
     
-    font-size: 1.2rem;
-    transition: 1s;
-
+    border: 2px solid #189bd3;
 }
-footer p{
-
-    border: 0 !important ;
-    margin-top: 1rem;
-    text-align: center;
-    font-family: 'Roboto', sans-serif ;
+.p-5{
+    
+    text-align: left;
+    border: none !important;
 }
-.span-2{
-
-    font-family:'Roboto', sans-serif ;
-    margin-right:1rem;
-}
-input{
-
-    font-family: 'Roboto', sans-serif ;
-    width: 10rem;
-    height: 1.7rem;
-    border-radius: 1rem;
-    text-align: center;
-    outline: none;
-    border: 1.5px solid #189bd3;
-    background: #eee;
-
-}
-form label{
-
-    border:0 !important;
-    text-align: center;
-}
-footer form{
-
-    width: 30rem !important;
-    padding: 3rem;
-    border-radius: 2rem;
-    background: #36393e94;
-    transition: 1s;
-}
-footer form:hover{
-
-    width: 25rem !important;
-    transition: 1s;
-}
-#a-2{
-
-    color: white;
-    background: #189bd3 ;
-    padding: 0.3rem 1rem;
-    margin-left:7rem;
-    border-radius: 1rem;
-    font-family: 'Roboto', sans-serif ;
-    font-size: 0.8rem;
-    transition: 1s;
-}
-#a-2:hover{
+.seccion-5 p:hover{
 
     background: transparent;
+    transition: 1s;
+}
+#a-5:hover{
+
+    background: transparent !important;
     transition: 1s;
 }
