@@ -190,3 +190,20 @@ form input{
     background: transparent !important;
     transition: 1s;
 }
+#a-10{
+    background-color:#189bd3 ;
+    padding: 0.3rem 3rem;
+    float: left;
+    margin-top: 7rem;
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+    margin-left: 24rem;
+    transition: 1s;
+}
+#a-10:hover{
+    
+    background: transparent;
+    transition: 1s;
+    
+}
